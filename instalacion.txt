@@ -1,0 +1,19 @@
+Instalación de mongod (versión libre Community Server)
+
+1.- Descargar desde mongo https://www.mongodb.com/try/download/community
+
+2.- Instalar con el paquete (desmarcando la opción de instalación como servicio opcional)
+
+3.- Una vez instalado los ejecutables están en C:\Program Files\MongoDB\Server\4.4\bin
+
+4.- Pusimos esa ruta en la variable de entorno path del equipo.
+
+5.- Creamos una carpeta para los archivos del servidor (en cualquier ubicación)
+
+6.- Levantar el servidor (por defecto se sirve en localhost:27017)
+
+mongod --dbpath <ruta-de-carpeta-de-archivos>
+
+7.- Ejecutar la shell de mongo (Herramienta de línea de comandos para administrar el servidor)
+
+mongo (sin opciones se conecta por defecto a localhost: 27017)
